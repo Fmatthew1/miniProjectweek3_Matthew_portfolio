@@ -228,15 +228,25 @@ input[type=submit] {
 
 @media only screen and (max-width: 1000px) {
 	.hamburger {
+	display: block;
 	border: 0;
 	background-color: tranparent;
 	color: white;
 	font-size: 30px;
-	display: block
+	margin:20px;
+	
   }
   
   ul {
 	  display:none;
+	  background-color:#2b2c38;
+	  margin:0px;
+  }
+  
+  nav {
+	  align-items: flex;
+	  flex-direction: column-reverse;
+	  background-color:#2b2c38; 
   }
 }
 		
